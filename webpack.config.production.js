@@ -50,7 +50,7 @@ const path = require('path');
 module.exports = {
   entry: './scripts/index',
   output: {
-    path: path.join(__dirname, 'static'),
+    path: path.join(__dirname, 'public', 'static'),
     filename: 'bundle.js',
     publicPath: '/'
   },

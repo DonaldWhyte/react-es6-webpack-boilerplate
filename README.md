@@ -1,6 +1,7 @@
 # React ES6 Webpack Boilerplate
 
 Boilerplate for kick starting a project with the following technologies:
+
 * [React](https://github.com/facebook/react)
 * [Babel 6](http://babeljs.io)
 * [Webpack](http://webpack.github.io) for bundling
@@ -9,13 +10,21 @@ Boilerplate for kick starting a project with the following technologies:
 
 The various webpack options used have been explained in detailed as comments in the config file. Should help with understanding the nitty-gritty :)
 
-
-### Usage
+### Run Server for Development
 
 ```
 npm install
 npm start
-Open http://localhost:5000
+# open http://localhost:5000
+```
+
+### Run Server in Production
+
+```
+npm install
+npm run build
+npm run prod
+# open http://localhost:5000
 ```
 
 ### Linting
